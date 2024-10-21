@@ -141,56 +141,56 @@ const experiences = [
 ];
 
 const projects = [
-    {
-        name: "T-WEB-501",
-        description: "Le projet \"Job Board\" utilise React pour gérer des annonces d'emploi, avec un backend en Express. Il inclut un système d'authentification et une interface d'administration.",
-        tags: [
-            {
-                name: "Web",
-                color: "text-blue-500",
-            },
-        ],
-    },
-    {
-        name: "T-CEN-500",
-        description: "Le projet \"Iron Man\" gère la construction d'une armure imprimée en 3D, intégrant des éléments robotisés. Il couvre la gestion des ressources, des risques et du budget, avec des livrables en Gantt et en communication.",
-        tags: [
-            {
-                name: "Management",
-                color: "text-green-500",
-            },
-        ],
-    },
-    {
-        name: "T-JAV-501",
-        description: "Le projet \"Dashboard\" utilise React pour le frontend et Java Spring Boot pour le backend, intégrant OAuth2. Il permet aux utilisateurs de créer des tableaux de bord dynamiques avec des widgets basés sur des données d'API externes.",
-        tags: [
-            {
-                name: "Web",
-                color: "text-blue-500",
-            },
-        ],
-    },
-    {
-        name: "T-NSA-501",
-        description: "Le projet \"You shall not pass\" configure une infrastructure réseau avec OpenBSD comme passerelle et FreeBSD comme serveur web, incluant un DHCP pour trois sous-réseaux et sécurisation des communications.",
-        tags: [
-            {
-                name: "Réseau",
-                color: "text-purple-500",
-            },
-        ],
-    },
-    {
-        name: "T-JSF-600",
-        description: "Le projet développe un client et un serveur IRC avec la stack MERN, utilisant des sockets. Le serveur gère plusieurs connexions, permettant la gestion de canaux et l'envoi de messages avec notifications.",
-        tags: [
-            {
-                name: "Web",
-                color: "text-blue-500",
-            },
-        ],
-    },
+    // {
+    //     name: "T-WEB-501",
+    //     description: "Le projet \"Job Board\" utilise React pour gérer des annonces d'emploi, avec un backend en Express. Il inclut un système d'authentification et une interface d'administration.",
+    //     tags: [
+    //         {
+    //             name: "Web",
+    //             color: "text-blue-500",
+    //         },
+    //     ],
+    // },
+    // {
+    //     name: "T-CEN-500",
+    //     description: "Le projet \"Iron Man\" gère la construction d'une armure imprimée en 3D, intégrant des éléments robotisés. Il couvre la gestion des ressources, des risques et du budget, avec des livrables en Gantt et en communication.",
+    //     tags: [
+    //         {
+    //             name: "Management",
+    //             color: "text-green-500",
+    //         },
+    //     ],
+    // },
+    // {
+    //     name: "T-JAV-501",
+    //     description: "Le projet \"Dashboard\" utilise React pour le frontend et Java Spring Boot pour le backend, intégrant OAuth2. Il permet aux utilisateurs de créer des tableaux de bord dynamiques avec des widgets basés sur des données d'API externes.",
+    //     tags: [
+    //         {
+    //             name: "Web",
+    //             color: "text-blue-500",
+    //         },
+    //     ],
+    // },
+    // {
+    //     name: "T-NSA-501",
+    //     description: "Le projet \"You shall not pass\" configure une infrastructure réseau avec OpenBSD comme passerelle et FreeBSD comme serveur web, incluant un DHCP pour trois sous-réseaux et sécurisation des communications.",
+    //     tags: [
+    //         {
+    //             name: "Réseau",
+    //             color: "text-purple-500",
+    //         },
+    //     ],
+    // },
+    // {
+    //     name: "T-JSF-600",
+    //     description: "Le projet développe un client et un serveur IRC avec la stack MERN, utilisant des sockets. Le serveur gère plusieurs connexions, permettant la gestion de canaux et l'envoi de messages avec notifications.",
+    //     tags: [
+    //         {
+    //             name: "Web",
+    //             color: "text-blue-500",
+    //         },
+    //     ],
+    // },
     {
         name: "T-SEC-600",
         description: "Le projet \"Socat\" comprend 12 défis Boot2Root axés sur l'exploitation de failles réseau. Les participants lancent des VMs TryHackMe pour découvrir des vulnérabilités et obtenir des droits root en collectant des drapeaux.",
@@ -206,12 +206,12 @@ const projects = [
         description: "Le projet \"Redditech\" développe une application de navigation pour Reddit, intégrant OAuth2, affichage du profil utilisateur et gestion des abonnements, avec une documentation technique complète exigée.",
         tags: [
             {
-                name: "Management",
-                color: "text-green-500",
-            },
-            {
                 name: "Mobile",
                 color: "text-teal-500",
+            },
+            {
+                name: "Management",
+                color: "text-green-500",
             },
         ],
     },
@@ -225,27 +225,27 @@ const projects = [
             },
         ],
     },
-    {
-        name: "T-ORG-600",
-        description: "Le projet modélise des flux de communication au sein d'une entreprise via un graphe représentant les échanges entre employés, analysant centralisation, processus décisionnels et division du travail, suivi d'une présentation comparative.",
-        tags: [
-            {
-                name: "Management",
-                color: "text-green-500",
-            },
-        ],
-    },
+    // {
+    //     name: "T-ORG-600",
+    //     description: "Le projet modélise des flux de communication au sein d'une entreprise via un graphe représentant les échanges entre employés, analysant centralisation, processus décisionnels et division du travail, suivi d'une présentation comparative.",
+    //     tags: [
+    //         {
+    //             name: "Management",
+    //             color: "text-green-500",
+    //         },
+    //     ],
+    // },
     {
         name: "T-YEP-600",
         description: "Le projet de fin d'année \"PixelVault\" est un RPG mobile au tour par tour, développé en C# avec Unity, .NET pour l'API REST et SQL Server. L'équipe a conçu gameplay, interface utilisateur et un système de progression évolutif. Un cahier des charges complet est exigé.",
         tags: [
             {
-                name: "Management",
-                color: "text-green-500",
-            },
-            {
                 name: "Mobile",
                 color: "text-teal-500",
+            },
+            {
+                name: "Management",
+                color: "text-green-500",
             },
         ],
     },
@@ -259,16 +259,16 @@ const projects = [
             },
         ],
     },
-    {
-        name: "T-WEB-600",
-        description: "Le projet développe une API générique pour sites e-commerce avec Symfony, permettant la gestion de produits, utilisateurs et commandes, déployée automatiquement via Ansible sur un serveur Debian. L'API respecte les standards REST et gère les données en JSON.",
-        tags: [
-            {
-                name: "Web",
-                color: "text-blue-500",
-            },
-        ],
-    },
+    // {
+    //     name: "T-WEB-600",
+    //     description: "Le projet développe une API générique pour sites e-commerce avec Symfony, permettant la gestion de produits, utilisateurs et commandes, déployée automatiquement via Ansible sur un serveur Debian. L'API respecte les standards REST et gère les données en JSON.",
+    //     tags: [
+    //         {
+    //             name: "Web",
+    //             color: "text-blue-500",
+    //         },
+    //     ],
+    // },
     {
         name: "T-DOP-600 3",
         description: "Le projet \"Bernstein\" déploie une application de sondage sur Kubernetes sur Azure, orchestrée avec Traefik pour le proxy inverse et le load balancing. Comprend des services Flask, Redis, Java et Node.js pour gérer et afficher les résultats des votes, avec PostgreSQL pour le stockage et cAdvisor pour la surveillance des conteneurs.",
@@ -288,12 +288,12 @@ const projects = [
                 color: "text-blue-500",
             },
             {
-                name: "DevOps",
-                color: "text-orange-500",
-            },
-            {
                 name: "Mobile",
                 color: "text-teal-500",
+            },
+            {
+                name: "DevOps",
+                color: "text-orange-500",
             },
         ],
     },
@@ -317,30 +317,30 @@ const projects = [
             },
         ],
     },
-    {
-        name: "T-DIT-700",
-        description: "Le projet \"Gotham\" réorganise la collecte des déchets en intégrant des technologies comme GPS et poubelles intelligentes. L'équipe de gestion du changement prépare les parties prenantes et gère la mise en œuvre des nouvelles solutions, avec des livrables prévus à chaque phase de transformation.",
-        tags: [
-            {
-                name: "Management",
-                color: "text-green-500",
-            },
-        ],
-    },
-    {
-        name: "T-ESP-800",
-        description: "Le projet \"Minigames VR\" propose une expérience de réalité virtuelle développée avec Unity en C#, offrant des jeux populaires dans un environnement multijoueur. Les joueurs sont connectés à une blockchain Polkadot pour le stockage et la gestion des données, avec livraison de documents techniques.",
-        tags: [
-            {
-                name: "VR",
-                color: "text-indigo-500",
-            },
-            {
-                name: "Management",
-                color: "text-green-500",
-            },
-        ],
-    },
+    // {
+    //     name: "T-DIT-700",
+    //     description: "Le projet \"Gotham\" réorganise la collecte des déchets en intégrant des technologies comme GPS et poubelles intelligentes. L'équipe de gestion du changement prépare les parties prenantes et gère la mise en œuvre des nouvelles solutions, avec des livrables prévus à chaque phase de transformation.",
+    //     tags: [
+    //         {
+    //             name: "Management",
+    //             color: "text-green-500",
+    //         },
+    //     ],
+    // },
+    // {
+    //     name: "T-ESP-800",
+    //     description: "Le projet \"Minigames VR\" propose une expérience de réalité virtuelle développée avec Unity en C#, offrant des jeux populaires dans un environnement multijoueur. Les joueurs sont connectés à une blockchain Polkadot pour le stockage et la gestion des données, avec livraison de documents techniques.",
+    //     tags: [
+    //         {
+    //             name: "VR",
+    //             color: "text-indigo-500",
+    //         },
+    //         {
+    //             name: "Management",
+    //             color: "text-green-500",
+    //         },
+    //     ],
+    // },
     {
         name: "T-NSA-800",
         description: "Le projet \"LostOps\" optimise une infrastructure cloud en établissant un monitoring multi-niveaux et en améliorant les pipelines CI/CD sur GitHub Actions, intégrant des métriques, des scans de sécurité et une documentation des outils.",

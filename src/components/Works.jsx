@@ -55,11 +55,10 @@ const Works = () => {
                     variants={fadeIn("", "", 0.1, 1)}
                     className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
                 >
-                    Les projets suivants mettent en avant mes compétences et mon expérience à travers
-                    des exemples concrets de mon travail. Chaque projet est brièvement décrit avec
-                    des liens vers les dépôts de code et des démonstrations en direct. Cela reflète
-                    ma capacité à résoudre des problèmes complexes, à travailler avec différentes technologies
-                    et à gérer des projets efficacement.
+                    Cet extrait présente quelques-uns des projets que j'ai réalisés, mettant en avant mes
+                    compétences et mon expérience à travers des exemples de mon travail. Cela
+                    reflète ma capacité à résoudre des problèmes complexes, à travailler avec différentes
+                    technologies et à gérer des projets efficacement.
                 </motion.p>
             </div>
 
