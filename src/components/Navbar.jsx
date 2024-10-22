@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 import {styles} from "../styles";
 import {navLinks} from "../constants";
-import {close, logo, menu} from "../assets";
+import {close, github, linkedin, logo, menu} from "../assets";
 
 const Navbar = () => {
     const [active, setActive] = useState("");
@@ -61,12 +61,18 @@ const Navbar = () => {
                         </li>
                     ))}
                     <a href="/melvinViougeaCV.pdf" target="_blank">
-                        <li
-                            className={`font-poppins font-medium cursor-pointer text-[16px] text-[#915EFF] bg-white px-8 rounded-xl outline-none`}
-                        >
+                        <li className="font-poppins font-medium cursor-pointer text-[16px] text-[#915EFF] bg-white px-6 rounded-xl outline-none">
                             CV
                         </li>
                     </a>
+                    <div className="flex gap-5">
+                    <a href="https://linkedin.com/in/melvin-viougea" target="_blank">
+                        <img src={linkedin} alt='LinkedIn Logo' className='rounded bg-white size-6'/>
+                    </a>
+                    <a href="https://github.com/melvin-viougea" target="_blank">
+                        <img src={github} alt='GitHub Logo' className='rounded-full border border-white bg-white size-6'/>
+                    </a>
+                    </div>
                 </ul>
 
                 <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -104,6 +110,14 @@ const Navbar = () => {
                                     CV
                                 </li>
                             </a>
+                            <div className="flex gap-4">
+                                <a href="https://linkedin.com/in/melvin-viougea" target="_blank">
+                                    <img src={linkedin} alt='LinkedIn Logo' className='rounded bg-white w-6 h-6'/>
+                                </a>
+                                <a href="https://github.com/melvin-viougea" target="_blank">
+                                    <img src={github} alt='GitHub Logo' className='rounded-full border border-white bg-white w-6 h-6'/>
+                                </a>
+                            </div>
                         </ul>
                     </div>
                 </div>

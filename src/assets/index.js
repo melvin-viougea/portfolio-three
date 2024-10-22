@@ -5,6 +5,7 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import linkedin from "./linkedin.svg";
 
 import ansible from "./tech/ansible.svg";
 import azure from "./tech/azure.svg";
@@ -52,6 +53,7 @@ export {
     close,
     docker,
     figma,
+    linkedin,
     gitlab,
     javascript,
     reactjs,
