@@ -1,13 +1,13 @@
 import {ansible, azure, chief, computeris, devops, docker, firebase, flutter, gitlab, jira, mobile, nextjs, reactjs, solutions909, springboot, swift, symfony, tailwind, web,} from "../assets";
 
-export const navLinks = [
+const navLinks = [
     {
         id: "about",
         title: "À propos",
     },
     {
         id: "work",
-        title: "Travail",
+        title: "Expériences",
     },
     {
         id: "contact",
@@ -249,16 +249,16 @@ const projects = [
             },
         ],
     },
-    {
-        name: "T-DOP-600 2",
-        description: "Le projet \"My_Marvin\" automatise la configuration de Jenkins avec \"Configuration as Code\" et Job DSL, créant des utilisateurs avec rôles spécifiques et automatisant des tâches comme le clonage de dépôts et la configuration de pipelines CI/CD.",
-        tags: [
-            {
-                name: "DevOps",
-                color: "text-orange-500",
-            },
-        ],
-    },
+    // {
+    //     name: "T-DOP-600 2",
+    //     description: "Le projet \"My_Marvin\" automatise la configuration de Jenkins avec \"Configuration as Code\" et Job DSL, créant des utilisateurs avec rôles spécifiques et automatisant des tâches comme le clonage de dépôts et la configuration de pipelines CI/CD.",
+    //     tags: [
+    //         {
+    //             name: "DevOps",
+    //             color: "text-orange-500",
+    //         },
+    //     ],
+    // },
     // {
     //     name: "T-WEB-600",
     //     description: "Le projet développe une API générique pour sites e-commerce avec Symfony, permettant la gestion de produits, utilisateurs et commandes, déployée automatiquement via Ansible sur un serveur Debian. L'API respecte les standards REST et gère les données en JSON.",
@@ -271,7 +271,7 @@ const projects = [
     // },
     {
         name: "T-DOP-600 3",
-        description: "Le projet \"Bernstein\" déploie une application de sondage sur Kubernetes sur Azure, orchestrée avec Traefik pour le proxy inverse et le load balancing. Comprend des services Flask, Redis, Java et Node.js pour gérer et afficher les résultats des votes, avec PostgreSQL pour le stockage et cAdvisor pour la surveillance des conteneurs.",
+        description: "Le projet \"Bernstein\" déploie une application de sondage sur Kubernetes avec Azure, orchestrée par Traefik pour le proxy inverse et le load balancing. Comprend des services Flask, Redis, Java et Node.js pour gérer et afficher les résultats des votes, avec PostgreSQL pour le stockage et cAdvisor pour la surveillance des conteneurs.",
         tags: [
             {
                 name: "DevOps",
@@ -341,20 +341,20 @@ const projects = [
     //         },
     //     ],
     // },
-    {
-        name: "T-NSA-800",
-        description: "Le projet \"LostOps\" optimise une infrastructure cloud en établissant un monitoring multi-niveaux et en améliorant les pipelines CI/CD sur GitHub Actions, intégrant des métriques, des scans de sécurité et une documentation des outils.",
-        tags: [
-            {
-                name: "DevOps",
-                color: "text-orange-500",
-            },
-            {
-                name: "Management",
-                color: "text-green-500",
-            },
-        ],
-    },
+    // {
+    //     name: "T-NSA-800",
+    //     description: "Le projet \"LostOps\" optimise une infrastructure cloud en établissant un monitoring multi-niveaux et en améliorant les pipelines CI/CD sur GitHub Actions, intégrant des métriques, des scans de sécurité et une documentation des outils.",
+    //     tags: [
+    //         {
+    //             name: "DevOps",
+    //             color: "text-orange-500",
+    //         },
+    //         {
+    //             name: "Management",
+    //             color: "text-green-500",
+    //         },
+    //     ],
+    // },
     {
         name: "T-DEV-810",
         description: "Le projet \"Zoidberg\" utilise l'apprentissage automatique pour détecter la pneumonie à partir d'images radiographiques. Il inclut l'intégration de réseaux neuronaux, validations croisées, comparaisons de méthodes, et la livraison de documents techniques et d'une synthèse des résultats.",
@@ -371,4 +371,4 @@ const projects = [
     },
 ];
 
-export {services, technologies, experiences, projects};
+export {navLinks, services, technologies, experiences, projects};
