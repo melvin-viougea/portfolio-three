@@ -341,20 +341,20 @@ const projects = [
     //         },
     //     ],
     // },
-    // {
-    //     name: "T-NSA-800",
-    //     description: "Le projet \"LostOps\" optimise une infrastructure cloud en établissant un monitoring multi-niveaux et en améliorant les pipelines CI/CD sur GitHub Actions, intégrant des métriques, des scans de sécurité et une documentation des outils.",
-    //     tags: [
-    //         {
-    //             name: "DevOps",
-    //             color: "text-orange-500",
-    //         },
-    //         {
-    //             name: "Management",
-    //             color: "text-green-500",
-    //         },
-    //     ],
-    // },
+    {
+        name: "T-NSA-800",
+        description: "Le projet \"LostOps\" optimise une infrastructure cloud en établissant un monitoring multi-niveaux et en améliorant les pipelines CI/CD sur GitHub Actions, intégrant des métriques, des scans de sécurité et une documentation des outils.",
+        tags: [
+            {
+                name: "DevOps",
+                color: "text-orange-500",
+            },
+            {
+                name: "Management",
+                color: "text-green-500",
+            },
+        ],
+    },
     {
         name: "T-DEV-810",
         description: "Le projet \"Zoidberg\" utilise l'apprentissage automatique pour détecter la pneumonie à partir d'images radiographiques. Il inclut l'intégration de réseaux neuronaux, validations croisées, comparaisons de méthodes, et la livraison de documents techniques et d'une synthèse des résultats.",
