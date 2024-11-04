@@ -432,7 +432,7 @@ const personnalProjects = [
                 color: "blue-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "express",
                 color: "green-text-gradient",
             },
             {

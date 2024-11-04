@@ -54,10 +54,9 @@ const SchoolProjects = () => {
                     variants={fadeIn("", "", 0.1, 1)}
                     className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
                 >
-                    Cet extrait présente quelques-uns des projets que j'ai réalisés, mettant en avant mes
-                    compétences et mon expérience à travers des exemples de mon travail. Cela
-                    reflète ma capacité à résoudre des problèmes complexes, à travailler avec différentes
-                    technologies et à gérer des projets efficacement.
+                    Voici quelques projets que j'ai réalisés au cours de mes études, illustrant les
+                    compétences techniques et les connaissances que j'ai acquises. Ces projets
+                    montrent mon évolution et ma capacité à relever des défis.
                 </motion.p>
             </div>
 

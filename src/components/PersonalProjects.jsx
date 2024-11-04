@@ -80,10 +80,9 @@ const PersonalProjects = () => {
                     variants={fadeIn("", "", 0.1, 1)}
                     className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
                 >
-                    Cet extrait présente quelques-uns des projets que j'ai réalisés, mettant en avant mes
-                    compétences et mon expérience à travers des exemples de mon travail. Cela
-                    reflète ma capacité à résoudre des problèmes complexes, à travailler avec différentes
-                    technologies et à gérer des projets efficacement.
+                    Mes projets personnels reflètent ma passion pour le développement et
+                    mon envie de créer des applications utiles et innovantes. Ces réalisations
+                    témoignent de mon autonomie et de ma créativité.
                 </motion.p>
             </div>
 
