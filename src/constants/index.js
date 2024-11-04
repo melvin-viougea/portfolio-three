@@ -1,4 +1,4 @@
-import {ansible, azure, chief, computeris, devops, docker, firebase, flutter, gitlab, jira, mobile, nextjs, reactjs, solutions909, springboot, swift, symfony, tailwind, web,} from "../assets";
+import {ansible, azure, chief, computeris, devops, digitalExpress, docker, firebase, flutter, gitlab, jira, maVieEtudiante, mobile, nBlades, nextjs, reactjs, solutions909, springboot, swift, symfony, tailwind, web,} from "../assets";
 
 const navLinks = [
     {
@@ -10,8 +10,12 @@ const navLinks = [
         title: "Expériences",
     },
     {
-        id: "projects",
-        title: "Projets",
+        id: "personalProjects",
+        title: "Projets personnels",
+    },
+    {
+        id: "schoolProjects",
+        title: "Projets scolaires",
     },
     {
         id: "contact",
@@ -144,7 +148,7 @@ const experiences = [
     },
 ];
 
-const projects = [
+const schoolProjects = [
     // {
     //     name: "T-WEB-501",
     //     description: "Le projet \"Job Board\" utilise React pour gérer des annonces d'emploi, avec un backend en Express. Il inclut un système d'authentification et une interface d'administration.",
@@ -375,4 +379,70 @@ const projects = [
     },
 ];
 
-export {navLinks, services, technologies, experiences, projects};
+const personnalProjects = [
+    {
+        name: "MaVieEtudiante",
+        description:
+            "Une application tout-en-un conçue pour faciliter la vie des étudiants, proposant des outils innovants pour gérer les emplois du temps, les devoirs, les événements sociaux et favoriser la communication entre pairs, le tout dans une interface intuitive.",
+        tags: [
+            {
+                name: "next.js",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "postgreSQL",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: maVieEtudiante,
+        source_code_link: "https://svenpiers05.wixsite.com/mon-bde",
+    },
+    {
+        name: "L'atelier NBlades",
+        description:
+            "Une plateforme e-commerce dédiée à la fabrication artisanale de raquettes de tennis de table en bois, chaque pièce étant soigneusement élaborée par des artisans qualifiés, alliant savoir-faire traditionnel et design contemporain pour une performance et une esthétique exceptionnelles.",
+        tags: [
+            {
+                name: "symfony",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "bootstrap",
+                color: "green-text-gradient",
+            },
+            {
+                name: "mysql",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: nBlades,
+        source_code_link: "https://www.lateliernblades.com/fr/",
+    },
+    {
+        name: "DigitalExpress",
+        description:
+            "Une application tout-en-un conçue pour faciliter la vie des étudiants, proposant des outils innovants pour gérer les emplois du temps, les devoirs, les événements sociaux et favoriser la communication entre pairs, le tout dans une interface intuitive.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "green-text-gradient",
+            },
+            {
+                name: "postres",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: digitalExpress,
+        source_code_link: "https://dashboard.digital-express.cloud",
+    },
+];
+
+export {navLinks, services, technologies, experiences, schoolProjects, personnalProjects};

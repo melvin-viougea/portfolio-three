@@ -4,7 +4,8 @@ import Navbar from "./Navbar";
 import About from "./About";
 import Tech from "./Tech";
 import Experience from "./Experience";
-import Projects from "./Projects.jsx";
+import SchoolProjects from "./SchoolProjects.jsx";
+import PersonalProjects from "./PersonalProjects.jsx";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 
@@ -15,7 +16,8 @@ export {
     About,
     Tech,
     Experience,
-    Projects,
+    SchoolProjects,
+    PersonalProjects,
     Contact,
     CanvasLoader,
     EarthCanvas,

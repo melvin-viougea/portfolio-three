@@ -6,6 +6,7 @@ import web from "./web.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import linkedin from "./linkedin.svg";
+import link from "./link.png";
 
 import ansible from "./tech/ansible.svg";
 import azure from "./tech/azure.svg";
@@ -31,6 +32,10 @@ import threejs from "./tech/threejs.svg";
 
 import solutions909 from "./company/solutions909.png";
 import computeris from "./company/computeris.png";
+
+import maVieEtudiante from "./personalProject/maVieEtudianteLogo.png"
+import nBlades from "./personalProject/nBladesLogo.jpeg"
+import digitalExpress from "./personalProject/digitalExpressLogo.png"
 
 export {
     ansible,
@@ -64,4 +69,8 @@ export {
     swift,
     solutions909,
     computeris,
+    maVieEtudiante,
+    nBlades,
+    digitalExpress,
+    link,
 };
