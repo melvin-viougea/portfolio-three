@@ -289,7 +289,7 @@ const schoolProjects = [
     },
     {
         name: "T-POO-700",
-        description: "Le projet \"Time Manager\" est une application de suivi du temps de travail, développée avec Angular et Elixir, permettant de gérer les horaires, afficher des tableaux de bord et suivre les temps de travail quotidiens et hebdomadaires. L'application est dockerisée et inclut une version mobile.",
+        description: "Le projet \"Time Manager\" est une application de suivi du temps de travail, développée avec React et Elixir, permettant de gérer les horaires, afficher des tableaux de bord et suivre les temps de travail quotidiens et hebdomadaires. L'application est dockerisée et inclut une version mobile.",
         tags: [
             {
                 name: "Web",
