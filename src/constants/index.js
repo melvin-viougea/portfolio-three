@@ -1,4 +1,4 @@
-import {ansible, azure, chief, computeris, devops, digitalExpress, docker, firebase, flutter, gitlab, jira, maVieEtudiante, mobile, nBlades, nextjs, reactjs, solutions909, springboot, swift, symfony, tailwind, web,} from "../assets";
+import {ansible, azure, chief, computeris, devops, digitalExpress, docker, firebase, flutter, gitlab, jira, maVieEtudiante, mobile, nBlades, nextjs, reactjs, solutions909, springboot, swift, python, tailwind, web, grafana} from "../assets";
 
 const navLinks = [
     {
@@ -60,8 +60,8 @@ const technologies = [
         icon: springboot,
     },
     {
-        name: "Symfony",
-        icon: symfony,
+        name: "Python",
+        icon: python,
     },
     {
         name: "Flutter",
@@ -90,6 +90,10 @@ const technologies = [
     {
         name: "GitLab",
         icon: gitlab,
+    },
+    {
+        name: "Grafana",
+        icon: grafana,
     },
     {
         name: "Jira",

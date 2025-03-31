@@ -24,6 +24,8 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import springboot from "./tech/springboot.svg";
 import symfony from "./tech/symfony.svg";
+import grafana from "./tech/grafana.png";
+import python from "./tech/python.png";
 import swift from "./tech/swift.svg";
 import tailwind from "./tech/tailwind.png";
 import teams from "./tech/teams.svg";
@@ -49,10 +51,12 @@ export {
     teams,
     firebase,
     symfony,
+    python,
     flutter,
     mobile,
     web,
     github,
+    grafana,
     menu,
     jira,
     close,
