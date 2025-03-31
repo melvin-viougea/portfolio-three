@@ -59,7 +59,7 @@ const Contact = () => {
                     setLoading(false);
                     console.error(error);
 
-                    alert("Ah, quelque chose s'est mal passé. Veuillez réessayer.");
+                    alert("Une erreur s'est produite, contactez-moi par email : mviougea@icloud.com");
                 }
             );
     };

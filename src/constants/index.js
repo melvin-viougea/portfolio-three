@@ -25,19 +25,19 @@ const navLinks = [
 
 const services = [
     {
-        title: "Développeur Web",
+        title: "Développement Logiciel",
         icon: web,
     },
     {
-        title: "Développeur Mobile",
+        title: "Architecture & Backend",
         icon: mobile,
     },
     {
-        title: "Ingénieur DevOps",
+        title: "CI/CD & Cloud",
         icon: devops,
     },
     {
-        title: "Chef de projet",
+        title: "Observabilité & Sécurité",
         icon: chief,
     },
 ];
