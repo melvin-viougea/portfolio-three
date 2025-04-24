@@ -60,7 +60,7 @@ const Navbar = () => {
                             <a href={`#${nav.id}`}>{nav.title}</a>
                         </li>
                     ))}
-                    <a href="/melvinViougeaCV.pdf" target="_blank">
+                    <a href="/Melvin Viougea - CV Software Engineer.pdf" target="_blank">
                         <li className="font-poppins font-medium cursor-pointer text-[16px] text-[#915EFF] bg-white px-6 rounded-xl outline-none">
                             CV
                         </li>
